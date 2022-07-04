@@ -5,10 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+
+p{
+    color: rgba(69, 64, 64, 0.692);
+    font-weight: 500;
+}
 .orange-color{
     color :orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -37,4 +42,12 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exparience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
 }
